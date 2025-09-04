@@ -1,0 +1,28 @@
+.navnOgBilde {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilbilde {
+    padding: 6px;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 16px rgba(255, 255, 255, 0.6),
+    0 0 34px rgba(255, 255, 255, 0.4);
+}
+
+.aboutMeText {
+    display: flex;
+    justify-self: end;
+    width: 290px;
+    font-size: 1.1rem;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: rgb(29, 29, 29) ;
+    /* text-align: center; */
+}

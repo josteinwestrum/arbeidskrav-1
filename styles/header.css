@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /* border-bottom: 1px solid white; */
+    height: 66px;
+}
+
+.logoName {
+    font-style: italic;
+    font-size: 2rem;
+    color: #fff; /* text itself white */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 16px rgba(255, 255, 255, 0.6),
+    0 0 24px rgba(255, 255, 255, 0.4);
+}
+
+.headerButtons {
+    display: flex;
+}
+
+.headerButtons li {
+    font-size: 20px;
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.headerButtons li:hover {
+    transform: scale(1.05);
+}
+
+.headerButtons li:active {
+        transform: scale(0.95);
+}
+
