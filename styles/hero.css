@@ -11,14 +11,15 @@
     border-radius: 50%;
     object-fit: cover;
     background-color: rgb(20, 20, 20);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
-    0 0 16px rgba(255, 255, 255, 0.6),
-    0 0 34px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.8),
+    0 0 12px rgba(255, 255, 255, 0.6),
+    0 0 12px rgba(255, 255, 255, 0.4);
 }
 
 .aboutMeText {
     display: flex;
-    justify-self: end;
+    justify-content: center; 
+    align-items: center;
     width: 290px;
     font-size: 1.1rem;
     padding: 16px;

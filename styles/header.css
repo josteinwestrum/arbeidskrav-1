@@ -9,10 +9,10 @@
 .logoName {
     font-style: italic;
     font-size: 2rem;
-    color: #fff; /* text itself white */
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+    color: #fff;
+    /* text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
     0 0 16px rgba(255, 255, 255, 0.6),
-    0 0 24px rgba(255, 255, 255, 0.4);
+    0 0 24px rgba(255, 255, 255, 0.4); */
 }
 
 .headerButtons {
@@ -38,3 +38,11 @@
         transform: scale(0.95);
 }
 
+.headerButtons a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerButtons a:visited {
+    color: white;
+}
